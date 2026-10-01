@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "jnJQYSPu3Wk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\owner\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "C:\\Users\\owner\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\owner\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512",
+    "C:\\Users\\owner\\.nuget\\packages\\scalar.aspnetcore\\2.16.13\\scalar.aspnetcore.2.16.13.nupkg.sha512",
+    "C:\\Users\\owner\\.nuget\\packages\\uglytoad.pdfpig\\1.7.0-custom-5\\uglytoad.pdfpig.1.7.0-custom-5.nupkg.sha512",
+    "C:\\Users\\owner\\.nuget\\packages\\uglytoad.pdfpig.core\\1.7.0-custom-5\\uglytoad.pdfpig.core.1.7.0-custom-5.nupkg.sha512",
+    "C:\\Users\\owner\\.nuget\\packages\\uglytoad.pdfpig.fonts\\1.7.0-custom-5\\uglytoad.pdfpig.fonts.1.7.0-custom-5.nupkg.sha512",
+    "C:\\Users\\owner\\.nuget\\packages\\uglytoad.pdfpig.tokenization\\1.7.0-custom-5\\uglytoad.pdfpig.tokenization.1.7.0-custom-5.nupkg.sha512",
+    "C:\\Users\\owner\\.nuget\\packages\\uglytoad.pdfpig.tokens\\1.7.0-custom-5\\uglytoad.pdfpig.tokens.1.7.0-custom-5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "パッケージ 'Microsoft.OpenApi' 2.0.0 に既知の 高 重大度の脆弱性があります、https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

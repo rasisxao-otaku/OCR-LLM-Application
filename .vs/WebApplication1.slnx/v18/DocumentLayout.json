@@ -1,0 +1,448 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\owner\\source\\repos\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\services\\embeddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\embeddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\services\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\services\\ragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\ragservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\services\\textchunkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\textchunkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\services\\qdrantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\qdrantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\services\\ollamaembeddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\ollamaembeddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\services\\ollamachatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\ollamachatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\services\\ocrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\ocrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\controllers\\pdfuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\pdfuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\models\\dcoumentchunkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\dcoumentchunkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\models\\embeddingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\embeddingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\dtos\\ollamaembeddingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\ollamaembeddingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\dtos\\embeddingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\embeddingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\services\\pdfregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\pdfregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\services\\pdfextractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\pdfextractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\dtos\\qdrantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\qdrantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\dtos\\ocrrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\ocrrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\util\\codefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\util\\codefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\util\\textchunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\util\\textchunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\owner\\source\\repos\\webapplication1\\webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Dockerfile",
+              "RelativeDocumentMoniker": "WebApplication1\\Dockerfile",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Dockerfile",
+              "RelativeToolTip": "WebApplication1\\Dockerfile",
+              "ViewState": "AgIAACQAAAAAAAAAAADwvzEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-06T05:56:34.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\SearchService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\SearchService.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\SearchService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\SearchService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T17:48:31.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAiwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T09:11:12.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TextChunkService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\TextChunkService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\TextChunkService.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\TextChunkService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\TextChunkService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T10:23:50.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RagService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\RagService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\RagService.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\RagService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\RagService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T10:07:15.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmbeddingService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\EmbeddingService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\EmbeddingService.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\EmbeddingService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\EmbeddingService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T17:20:09.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\TestController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T19:11:54.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QdrantService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\QdrantService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\QdrantService.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\QdrantService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\QdrantService.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAqwH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T09:57:45.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OllamaEmbeddingService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\OllamaEmbeddingService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\OllamaEmbeddingService.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\OllamaEmbeddingService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\OllamaEmbeddingService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T09:56:25.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OllamaChatService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\OllamaChatService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\OllamaChatService.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\OllamaChatService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\OllamaChatService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T09:59:01.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OcrService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\OcrService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\OcrService.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\OcrService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\OcrService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T17:20:07.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PdfUploadController.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\PdfUploadController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\PdfUploadController.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\PdfUploadController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\PdfUploadController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T09:42:53.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DcoumentChunkModel.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Models\\DcoumentChunkModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\DcoumentChunkModel.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Models\\DcoumentChunkModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\DcoumentChunkModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T10:23:14.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmbeddingResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Models\\EmbeddingResponseDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\EmbeddingResponseDto.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Models\\EmbeddingResponseDto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\EmbeddingResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T18:49:04.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OllamaEmbeddingResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Dtos\\OllamaEmbeddingResponseDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Dtos\\OllamaEmbeddingResponseDto.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Dtos\\OllamaEmbeddingResponseDto.cs",
+              "RelativeToolTip": "WebApplication1\\Dtos\\OllamaEmbeddingResponseDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T17:19:26.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmbeddingResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Dtos\\EmbeddingResponseDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Dtos\\EmbeddingResponseDto.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Dtos\\EmbeddingResponseDto.cs",
+              "RelativeToolTip": "WebApplication1\\Dtos\\EmbeddingResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T10:00:13.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PdfRegisterService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\PdfRegisterService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\PdfRegisterService.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\PdfRegisterService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\PdfRegisterService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswDkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T09:46:56.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PdfExtractService.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\PdfExtractService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\PdfExtractService.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Services\\PdfExtractService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\PdfExtractService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T09:54:14.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "QdrantDto.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Dtos\\QdrantDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Dtos\\QdrantDto.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Dtos\\QdrantDto.cs",
+              "RelativeToolTip": "WebApplication1\\Dtos\\QdrantDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T17:21:49.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OcrRecordDto.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Dtos\\OcrRecordDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Dtos\\OcrRecordDto.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Dtos\\OcrRecordDto.cs",
+              "RelativeToolTip": "WebApplication1\\Dtos\\OcrRecordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T17:15:55.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T09:42:43.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T10:07:54.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CodeFile.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Util\\CodeFile.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Util\\CodeFile.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Util\\CodeFile.cs",
+              "RelativeToolTip": "WebApplication1\\Util\\CodeFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T10:14:37.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WebApplication1.csproj",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-16T09:54:54.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TextChunk.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Util\\TextChunk.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Util\\TextChunk.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\Util\\TextChunk.cs",
+              "RelativeToolTip": "WebApplication1\\Util\\TextChunk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T09:55:31.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\owner\\source\\repos\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApplication1\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T09:11:25.531Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
