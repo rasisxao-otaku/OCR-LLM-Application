@@ -19,7 +19,8 @@
 
 
     public async Task<string> AskAsync(
-    string question)
+    string question,
+    DocumentSearchFilter? filter = null)
     {
 
         // 質問をベクトル化
@@ -32,7 +33,7 @@
         // Qdrant検索
         var context =
             await _qdrant
-            .SearchAsync(vector);
+            .SearchAsync(vector, filter);
 
 
 

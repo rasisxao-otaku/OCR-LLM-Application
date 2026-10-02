@@ -74,9 +74,23 @@ public class QdrantService
      string filename,
      string text,
      List<float> embedding,
-     int chunkIndex)
+     int chunkIndex,
+     DocumentMetadata? metadata = null)
     {
         await InitializeAsync();
+
+        var payload = new
+        {
+            filename,
+            text,
+            chunkIndex,
+            documentType = metadata?.DocumentType ?? "manual",
+            vehicleModel = metadata?.VehicleModel,
+            manufacturer = metadata?.Manufacturer,
+            year = metadata?.Year,
+            partNumber = metadata?.PartNumber,
+            uploadedAtUtc = metadata?.UploadedAtUtc ?? DateTime.UtcNow
+        };
 
         var request = new
         {
@@ -87,12 +101,7 @@ public class QdrantService
                 id = Guid.NewGuid(),
 
                 vector = embedding,
-                payload = new
-                {
-                    filename,
-                    text,
-                    chunkIndex
-                }
+                payload
             }
         }
         };
@@ -107,17 +116,73 @@ public class QdrantService
     }
 
     public async Task<string> SearchAsync(
-       List<float> vector)
+       List<float> vector,
+       DocumentSearchFilter? filter = null)
     {
+        var must = new List<object>();
+
+        if (!string.IsNullOrWhiteSpace(filter?.DocumentType))
+        {
+            must.Add(new
+            {
+                key = "documentType",
+                match = new { value = filter.DocumentType }
+            });
+        }
+
+        if (!string.IsNullOrWhiteSpace(filter?.VehicleModel))
+        {
+            must.Add(new
+            {
+                key = "vehicleModel",
+                match = new { value = filter.VehicleModel }
+            });
+        }
+
+        if (!string.IsNullOrWhiteSpace(filter?.Manufacturer))
+        {
+            must.Add(new
+            {
+                key = "manufacturer",
+                match = new { value = filter.Manufacturer }
+            });
+        }
+
+        if (filter?.Year is not null)
+        {
+            must.Add(new
+            {
+                key = "year",
+                match = new { value = filter.Year.Value }
+            });
+        }
+
+        if (!string.IsNullOrWhiteSpace(filter?.PartNumber))
+        {
+            must.Add(new
+            {
+                key = "partNumber",
+                match = new { value = filter.PartNumber }
+            });
+        }
+
+        var request = new Dictionary<string, object>
+        {
+            ["vector"] = vector,
+            ["limit"] = filter?.Limit ?? 5,
+            ["with_payload"] = true
+        };
+
+        if (must.Count > 0)
+        {
+            request["filter"] = new { must };
+        }
+
         var response =
             await _httpClient.PostAsJsonAsync(
                 $"/collections/{CollectionName}/points/search",
-                new
-                {
-                    vector,
-                    limit = 3,
-                    with_payload = true
-                });
+                request
+            );
 
         response.EnsureSuccessStatusCode();
 

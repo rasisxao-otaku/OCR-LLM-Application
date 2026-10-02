@@ -7,6 +7,18 @@ var builder = WebApplication.CreateBuilder(args);
 // Controller
 builder.Services.AddControllers();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("FrontendPolicy", policy =>
+    {
+        policy
+            .WithOrigins(
+                "http://localhost:5173",
+                "http://127.0.0.1:5173")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 
 // OpenAPI
 builder.Services.AddOpenApi();
@@ -75,7 +87,7 @@ builder.Services.AddScoped<SearchService>();
 
 var app = builder.Build();
 
-
+app.UseCors("FrontendPolicy");
 
 // Docker環境でもSwagger公開
 app.MapOpenApi();

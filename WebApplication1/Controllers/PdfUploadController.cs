@@ -23,15 +23,29 @@ public class PdfController : ControllerBase
     }
 
     [HttpPost("upload")]
-    public async Task<IActionResult> Upload(IFormFile file)
+    public async Task<IActionResult> Upload(
+        IFormFile file,
+        [FromForm] DocumentUploadRequest? request)
     {
+        if (file == null || file.Length == 0)
+        {
+            return BadRequest("The file field is required.");
+        }
+
+        var metadata = new DocumentMetadata
+        {
+            Filename = file.FileName,
+            DocumentType = request?.DocumentType ?? "manual",
+            VehicleModel = request?.VehicleModel,
+            Manufacturer = request?.Manufacturer,
+            Year = request?.Year,
+            PartNumber = request?.PartNumber
+        };
+
         Console.WriteLine("======================================");
         Console.WriteLine($"UPLOAD START : {file.FileName}");
+        Console.WriteLine($"DOCUMENT TYPE : {metadata.DocumentType}");
         Console.WriteLine("======================================");
-
-        //
-        // OCR
-        //
 
         Console.WriteLine("OCR START");
 
@@ -45,17 +59,9 @@ public class PdfController : ControllerBase
 
         Console.WriteLine("OCR END");
 
-        //
-        // OCR全文作成
-        //
-
         var text = BuildDocumentText(ocr);
 
         Console.WriteLine($"TEXT SIZE = {text.Length}");
-
-        //
-        // Chunk作成
-        //
 
         var chunks =
             _chunkService.Split(
@@ -64,12 +70,14 @@ public class PdfController : ControllerBase
 
         Console.WriteLine($"CHUNK COUNT = {chunks.Count}");
 
-        //
-        // Chunk毎にEmbedding生成＆Qdrant保存
-        //
-
         foreach (var chunk in chunks)
         {
+            chunk.DocumentType = metadata.DocumentType;
+            chunk.VehicleModel = metadata.VehicleModel;
+            chunk.Manufacturer = metadata.Manufacturer;
+            chunk.Year = metadata.Year;
+            chunk.PartNumber = metadata.PartNumber;
+
             Console.WriteLine("--------------------------------------");
             Console.WriteLine(
                 $"Chunk={chunk.ChunkIndex}");
@@ -93,7 +101,16 @@ public class PdfController : ControllerBase
                 chunk.Filename,
                 chunk.Text,
                 embedding,
-                chunk.ChunkIndex);
+                chunk.ChunkIndex,
+                new DocumentMetadata
+                {
+                    Filename = chunk.Filename,
+                    DocumentType = chunk.DocumentType,
+                    VehicleModel = chunk.VehicleModel,
+                    Manufacturer = chunk.Manufacturer,
+                    Year = chunk.Year,
+                    PartNumber = chunk.PartNumber
+                });
 
             Console.WriteLine("Qdrant SAVE END");
         }
@@ -106,7 +123,12 @@ public class PdfController : ControllerBase
         {
             FileName = file.FileName,
             TextLength = text.Length,
-            ChunkCount = chunks.Count
+            ChunkCount = chunks.Count,
+            DocumentType = metadata.DocumentType,
+            VehicleModel = metadata.VehicleModel,
+            Manufacturer = metadata.Manufacturer,
+            Year = metadata.Year,
+            PartNumber = metadata.PartNumber
         });
     }
 

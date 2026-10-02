@@ -21,14 +21,25 @@ public class ChatController : ControllerBase
         ChatRequest request)
     {
 
+        var filter = new DocumentSearchFilter
+        {
+            DocumentType = request.DocumentType,
+            VehicleModel = request.VehicleModel,
+            Manufacturer = request.Manufacturer,
+            Year = request.Year,
+            PartNumber = request.PartNumber,
+            Limit = request.Limit
+        };
+
         var result =
             await _rag
-            .AskAsync(request.Question);
+            .AskAsync(request.Question, filter);
 
 
         return Ok(new
         {
-            result
+            result,
+            filter
         });
     }
 }
